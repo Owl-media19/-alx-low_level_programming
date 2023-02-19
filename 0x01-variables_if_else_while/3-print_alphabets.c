@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - main function to print alphabets in lowercase
+ * main - main function that prints both lower and Upper case alphabets
  *
  * Return: Always 0 (success)
  *
@@ -10,13 +10,18 @@
 int main(void)
 {
 	int ch = 'a';
-	
-	while (ch <= 'z')
+	int CH = 'A';
+
+	while (ch <= 'z');
 	{
 		putchar(ch);
 		ch++;
 	}
-	putchar ('\n');
+	while (CH <= 'Z');
+	{
+		putchar(ch);
+		CH++;
+	}
+	putchar('\n');
 	return (0);
 }
-
