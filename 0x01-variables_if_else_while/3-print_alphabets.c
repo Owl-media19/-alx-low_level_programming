@@ -9,20 +9,13 @@
  */
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'A';
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-		while (ch <= 'z');
-		{	
-			putchar(ch);
-			ch++;
-		}
-		while (CH <= 'Z');
-		{
-			putchar(ch);
-			CH++;
-		}
-
-			putchar('\n');
+	for (i = 0; i < 52; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
 	return (0);
 }
