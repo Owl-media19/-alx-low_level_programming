@@ -1,20 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - prints number between 0-9 and letters between a to f.
+ * main - printing all numbers of base 16.
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
 
-	for (i = 48; i < 58; i++)
-	{
-		putchar(i);
-	}
-	for (i = 97; i = 103; i++)
+	for (i = 0; i < 16; i++)
 	{
 		putchar(i);
 	}
