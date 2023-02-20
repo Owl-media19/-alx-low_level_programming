@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - print lowercase alphabet in reverse
+ * main - Prints reversed alphabet.
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
