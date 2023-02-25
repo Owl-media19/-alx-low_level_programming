@@ -1,7 +1,7 @@
-#include"main.h"
+#include "main.h"
 /**
- * main - print putchar and add a new line
- * i
+ * main - print - putchar and add new lines
+ *
  * Return: Always 0 (success)
  */
 int main(void)
@@ -10,10 +10,10 @@ int main(void)
 	int count = 0, size;
 
 	size = sizeof(str) / sizeof(int);
-	do{
+	do {
 		_putchar(str[count]);
 		count++;
-	}while (count < size);
+	} while (count < size);
 	_putchar('\n');
 	return (0);
 }
