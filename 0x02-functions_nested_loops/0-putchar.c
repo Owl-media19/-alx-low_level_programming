@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - print - putchar and add new lines
- *
- * Return: Always 0 (success)
- */
+* main-print -purchar and add a new line
+*i
+* Return: always 0 (success)
+*/
 int main(void)
 {
 	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
