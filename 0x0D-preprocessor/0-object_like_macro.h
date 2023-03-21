@@ -1,3 +1,4 @@
+#include <stdio.h>
 #ifndef _SUM_LIKE_MACRO
 #define _SUM_LIKE_MACRO
 
