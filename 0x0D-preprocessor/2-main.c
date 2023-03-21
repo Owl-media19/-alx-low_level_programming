@@ -5,9 +5,9 @@
  *
  * Return - Always 0 (Success)
  *
- */
+ **/
 
-int main(void)
+int main(_FILE_)
 {
 	printf("%s\n", _FILE_);
 	return (0);
