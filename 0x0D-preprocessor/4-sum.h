@@ -1,12 +1,6 @@
-#include <stdio.h>
+#ifndef _SUM_LIKE_MACRO
+#define _SUM_LIKE_MACRO
 
 #define SUM(x, y) ((x) + (y))
 
-int main(void)
-{
-	int a; 
-	
-	a = (98, 1024);
-	printf("%d\n", a);
-	return (0);
-}
+#endif
